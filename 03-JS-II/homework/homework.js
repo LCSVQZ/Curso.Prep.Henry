@@ -5,6 +5,11 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+
+  if (x > y) {
+    return x;
+  } else 
+    return y;
 }
 
 function saludo(idioma) {
@@ -51,6 +56,13 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+
+  if (numero % 2 = 0) {
+    return true;
+  }  else {
+    return false;
+  }
+
 }
 
 
